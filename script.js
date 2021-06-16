@@ -13,4 +13,10 @@ function getResult() {
     xyz.value = eval(xyz.value)
 }
 
+function remove() {
+    var xyz = document.getElementById('fn')
+    xyz.value = xyz.value.slice(0,xyz.value.length-1)
+}
+
+
 
